@@ -9,13 +9,13 @@ Worker::Worker(
 	std::string surname,
 	std::string name,
 	std::string patronymic, 
-	int login){ 
-	/*SafetySystem::addWorker(Worker(
+	std::string login){ 
+	SafetySystem::addWorker(Worker(
 		_passportNum = passportNum,
 		_surname = surname,
 		_name = name,
 		_patronymic = patronymic,
-		_login = login));*/
+		_login = login));
 	
 }
 void Worker::setPassportNum(int passportNum){

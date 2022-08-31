@@ -9,8 +9,8 @@ public:
 	SafetySystem();
 	void setWorkerList();
 	std::vector<Worker> getWorkerList();
-	void addWorker(Worker& other);
+	static void addWorker(Worker other);
 
 private:
-	std::vector<Worker> _workerList;
+	static std::vector<Worker> _workerList;
 };

@@ -7,7 +7,7 @@ class Worker {
 public:
 	Worker();
 	Worker(int passportNum, std::string surname, std::string name,
-		std::string patronymic, int login);
+		std::string patronymic, std::string login);
 
 	void setPassportNum(int passportNum);
 	int getPassportNum();
@@ -27,5 +27,5 @@ private:
 	std::string _surname;
 	std::string _name;
 	std::string _patronymic;
-	int _login = 0;
+	std::string _login;
 };
